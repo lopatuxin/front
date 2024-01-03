@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header .logo a, .header .login a {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.header .logo a:hover, .header .login a:hover {
+    text-decoration: underline;
+}
+
+.header .logo a.active, .header .login a.active {
+    background-color: ghostwhite;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.header .rightSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header .search {
+    display: flex;
+    align-items: center;
+}
+
+.header .search input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header .search button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: ghostwhite;
+    color: #333;
+    cursor: pointer;
+    margin-left: 5px;
+}
