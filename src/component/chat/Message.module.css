@@ -1,0 +1,12 @@
+/* Message.module.css */
+.message {
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+.own {
+    align-self: flex-end;
+    background-color: #d0d0ff;
+}

@@ -7,31 +7,31 @@ export const NavigationPanel = () => {
     return (
         <div className={style.navigationPanel}>
             <ul>
-                <div className={style.block}>
+                <li className={style.block}>
                     <NavLink to='/course' className={link => link.isActive ? style.active : style.block}>
                         <FontAwesomeIcon icon={faBook}/> Курс
                     </NavLink>
-                </div>
-                <div className={style.block}>
+                </li>
+                <li className={style.block}>
                     <NavLink to='/forum' className={link => link.isActive ? style.active : style.block}>
                         <FontAwesomeIcon icon={faComments}/> Форум
                     </NavLink>
-                </div>
-                <div className={style.block}>
+                </li>
+                <li className={style.block}>
                     <NavLink to='/friends' className={link => link.isActive ? style.active : style.block}>
                         <FontAwesomeIcon icon={faUsers}/> Друзья
                     </NavLink>
-                </div>
-                <div className={style.block}>
+                </li>
+                <li className={style.block}>
                     <NavLink to='/messages' className={link => link.isActive ? style.active : style.block}>
                         <FontAwesomeIcon icon={faEnvelope}/> Сообщения
                     </NavLink>
-                </div>
-                <div className={style.block}>
+                </li>
+                <li className={style.block}>
                     <NavLink to='/notifications' className={link => link.isActive ? style.active : style.block}>
                         <FontAwesomeIcon icon={faBell}/> Уведомления
                     </NavLink>
-                </div>
+                </li>
             </ul>
         </div>
     )

@@ -2,6 +2,7 @@ import style from './App.module.css';
 import {NavigationPanel} from "./component/navigationPanel/NavigationPanel";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Header} from "./component/header/Header";
+import Chat from "./component/chat/Chat";
 
 function App() {
     return (
@@ -12,7 +13,7 @@ function App() {
                     <NavigationPanel/>
                     <div className={style.content}>
                         <Routes>
-                            <Route/>
+                            <Route path='/messages' element={<Chat/>}/>
                             <Route/>
                             <Route/>
                             <Route/>
